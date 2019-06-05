@@ -1,0 +1,37 @@
+.rightpanel{
+    margin: 20px;
+    width: 75%;
+}
+
+.headerList, .subHeader{
+    border-bottom: 1px solid #dcd6d6;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+nav div{
+    color: #55565a;
+    padding: 10px;
+}
+
+.subHeader{
+    padding: 10px 0;
+    display: flex;
+}
+
+.subHeader input{
+    flex: auto;
+    width: 100%;
+    margin-right: 15px;
+    border-radius: 3px;
+    padding: 6px 8px;
+    border: 1px solid #d1d5da;
+}
+
+.subHeader div{
+    display: flex;
+}
