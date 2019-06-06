@@ -1,10 +1,10 @@
 export default (state = {}, action) => {
-    switch (action.type) {
-     case 'SIMPLE_ACTION':
+  switch (action.type) {
+    case 'REPO_LIST':
       return {
-       result: action.payload
+       repositories: action.payload
       }
-     default:
+    default:
       return state
-    }
-   }
+  }
+}

@@ -25,7 +25,6 @@ nav div{
 
 .subHeader input{
     flex: auto;
-    width: 100%;
     margin-right: 15px;
     border-radius: 3px;
     padding: 6px 8px;
@@ -34,4 +33,101 @@ nav div{
 
 .subHeader div{
     display: flex;
+}
+
+.subHeader .btn{
+    margin-right: 8px;
+}
+
+.headerList .tab-active{
+    font-weight: 600;
+    border-bottom: 2px solid #e8650b;
+}
+
+.repo-item{
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #dcd6d6;
+}
+
+.repo-item h2{
+    color: #0366d6;
+    margin: 0 0 10px 0;
+}
+
+.subHeader .btn:after {
+    border: 4px solid transparent;
+    border-top-color: currentcolor;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: -2px;
+    width: 0;
+}
+
+.subHeader .btn{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.language-icon{
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    width: 12px;
+    background-color: #f1e05a;
+}
+
+.JavaScript{
+    background-color: #f1e05a;
+}
+
+.HTML{
+    background-color: #e34c26
+}
+
+.CSS{
+    background-color: #563d7c;
+}
+
+.btm-sec{
+    margin-top: 15px;
+    display: flex;
+    font-size: 12px;
+}
+
+.btm-sec div{
+    margin-right: 5px;
+}
+
+.new{
+    background: #0daf0d;
+    color: white;
+}
+
+.new svg{
+    fill: white;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.count{
+    border-radius: 50%;
+    margin-left: 5px;
+    height: 12px;
+    font-size: 13px;
+    padding: 2px;
+    position: relative;
+    top: 1px;
+    width: 12px;
+    background-color: #edf0f3;
+}
+
+.desc{
+    font-size: 14px;
 }

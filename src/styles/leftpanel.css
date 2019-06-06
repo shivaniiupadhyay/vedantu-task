@@ -23,10 +23,11 @@
 
 .btn{
     width: 100%;
-    padding: 9px;
+    padding: 8px 12px;
     border-radius: 3px;
     font-weight: 700;
-    background: whitesmoke;
+    min-height: 34px;
+    background: #edf0f3;
 }
 
 .basicbio p{

@@ -26,7 +26,7 @@ class LeftPanel extends Component {
    return (
         <div className="leftpanel">
           <div className="basicbio">
-            <img width="260" height="260" src={data.avatar_url}></img>
+            <img width="260" height="260" alt="" src={data.avatar_url}></img>
             <h2>{data.name}</h2>
             <span className="username">{data.login}</span>
             <p>{data.bio}</p>
