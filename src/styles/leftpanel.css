@@ -45,3 +45,17 @@
     margin-right: 10px;
     width: 16px;
 }
+
+@media(max-width: 767px){
+    .leftpanel{
+        width: 100%;
+    }
+    .basicbio{
+        display: flex;
+    }
+    .basicbio img{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+}

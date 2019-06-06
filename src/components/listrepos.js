@@ -13,11 +13,10 @@ class ListRepos extends Component {
      else return 'Updated on ' + moment(date).format('D MMM YYYY')
   }
   render() {
-     console.log(this.props)
    return (
         this.props.repos ? 
         <div className="repo-list">
-             {this.props.repos.map((data, i) => {
+             {this.props.repos.length !== 0 ? this.props.repos.map((data, i) => {
                  return <div key={i} className="repo-item">
                     <h2>{data.name}</h2>
                     {data.description && <span className="desc">{data.description}</span>}
@@ -26,8 +25,7 @@ class ListRepos extends Component {
                          <span>{this.convertDate(data.updated_at)}</span>
                     </div>
                   </div>
-             })
-
+             }) : <div> No Repositories found! </div>
              }
         </div>
          : <Loader />
